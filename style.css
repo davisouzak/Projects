@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @font-face {
+        font-family:Anke.otf ;
+        src: url(Documentos/CURSO WEB/PROJETOS/LOJA ONLINE/Anke.otf);
+    }
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.background {
+    background-image: url(img-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    max-width: 100%;
+    height: auto;                                                                                      
+}
+
+header {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: top 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: sticky;
+    max-width: var(--site-content-width);
+    background-color: transparent;
+    padding: 14px 14%;
+}
+
+.logo {
+    align-items: baseline;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.cabeçalho-link {
+    font-size: 20px;
+    align-items: baseline;
+    display: flex;
+    gap: 3rem;
+}
+
+.cabeçalho-link a{
+    align-items: baseline;
+    color: #fff;
+    font-weight: 800;
+    transition: 0.3s;
+}
+
+.cabeçalho-link a:hover {
+    text-decoration: underline;
+}
+
+header:hover {
+        background-color: #fff;
+        .logo, .cabeçalho-link a, .icon span {
+            color: #041e3a;
+        }
+}
+
+.meio {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+    color: #fff;
+    font-size: 25px;
+    line-height: 3rem;
+}
+
+.meio h1 {
+    font-size: 3rem;
+}
+
+.meio p {
+    line-height: 2rem;
+}
+
+.meio button {
+    background-color: #041e3a;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.meio button:hover {
+    background-color: #fff;
+    color: #041e3a;
+    transform: scaleY(1.2);
+}
+
+.icon span {
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    padding-top: 23px;
+}
+
+section  {
+    padding-top: 3rem;
+}
+
+section h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 2rem
+}
+
+.container-card-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+    width: auto;
+}
+
+
+
+.cards img {
+    width: 450px;
+    height: auto;
+    transition: 0.35s ease;
+}
+
+.cards img:hover {
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+}
+
+.cta {
+    height: 60vh;
+    width: 100%;
+    background:url(img7.jpg);
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.text-cta {
+    padding-left: 5rem;
+}
+
+.text-cta, h2 {
+    color: #fff;
+    font-size: 50px;
+	font-weight: 500;
+	letter-spacing: .6px;
+	margin-bottom: 14px;
+}
+
+ .text-cta, h4 {
+    margin-top: -60px;
+    font-size: 30px;
+    color: #fff;
+}
+.alinha-final {
+    line-height: 40px;
+    margin-top: -50px;
+    display: flex;
+    align-self: self-end;
+    margin-top: 25px;
+}
+
+.btn {
+    background-color: #041e3a;
+    padding: 1rem 3rem 1rem 3rem;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    align-self: self-end;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #041e3a;
+    transform: scaleY(1.2);
+}
+
+.container-roupas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.container-roupas img:hover {
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.35s ease;
+}
+
+.roupa {
+    color: #041e3a;
+}
+
+.Marca {
+    height: 300px;
+    margin-top: 10rem;
+    padding: 25px;
+    margin: 25px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.div, Marca {
+    width: 180px;
+    height: auto;
+    background-color: aliceblue;
+}
+
+.Contato {
+    padding: 0%;
+    font-size: 17px;
+    display: grid;
+    color: #041e3a;
+    cursor: pointer;
+}
+
+footer {
+    clear: both;
+    letter-spacing: .3px;
+    padding: 2.1875rem;
+    margin: 0;
+    background-color: #fff;
+    position: relative;
+    transform: translateZ(0);
+    box-sizing: inherit;
+    display: flex;
+    border-top: #d1d1d1;
+}
+
+footer {
+    background-color: #fff;
+    overflow: hidden;
+    height: 470px;
+    color: #041e3a;
+}
+
+
+.container-1 {
+    width: 25%;
+    border-top: none;
+    flex-grow: 1;
+    padding: 0 0 0 1.875rem;
+    margin: 2.1875rem;
+    border-right: 1px solid #d1d1d1;
+
+}
+
+.container-2 {
+    order: 2;
+    width: 25%;
+    border-top: none;
+    flex-grow: 1;
+    padding: 0 0 0 1.875rem;
+    margin: 2.1875rem;
+    border-right: 1px solid #d1d1d1;
+}
+
+.container-3 {
+    order: 3;
+    width: 25%;
+    border-top: none;
+    flex-grow: 1;
+    padding: 0 0 0 1.875rem;
+    margin: 2.1875rem 0;
+    border-right: 1px solid #d1d1d1;
+}
+
+.meio-contato {
+    padding: 50px 62px;
+}
+
+footer a,li {
+    color: black;
+    line-height: 30px;
+}
+
+.last-text {
+    text-align: center;
+}
+
+@media only screen and (min-width:400px) {
+    .background {
+        height: 100%;
+        align-items: center;
+        width: 100%;
+    }
+    .cabeçalho-link {
+        display: none;
+    }
+    .logo {
+        display: flex;
+        font-size: 60%;
+        margin:0
+
+    }
+
+    .div,Marca {
+        height: 150px;
+        width: 20px;
+    }
+
+    footer {
+        display: none;
+    }
+
+}
+
+
